@@ -1,0 +1,78 @@
+Authors: Jessica and Lukas
+
+User Stories
+
+As a user I would like to personalize my rubber ducky.
+    - with Hats
+    - Facial hair
+    - clothing
+    - accessory
+        - Wand
+        - Umbrella
+        - 
+    - companion 
+        - Parrot
+        - Ferbie
+        - Baby rubber ducky
+        - Dragon
+        - Sloth
+        - Puffer fish
+        - Elephant
+        - Unicorn
+        - Rain cloud
+        - HippoGriff
+        - 
+    - Jewelery
+    - Background (sometimes in a bath tub)
+        - Pond
+        - Beach
+        - Roller Skating Rink
+        - Mall
+        - Street Corner
+        - On a bus
+        - at work
+        - In a bathroom
+        - In portapotty
+        - Dance club
+        - 
+    - Personality (Each personality is a person in the Fiddler Crabs)
+        - Drunk 
+        - Funny
+        - Sassy
+        - Tells it like it is
+        - Empathetic
+        - Mean 
+        - Pirate
+        - Depressed (EYOR)
+        - Wizard
+        - Arnold
+        - Fortune Teller
+        - 8 ball/possessed rubber ducky (eyes all white)
+        - Star wars rubber ducky
+        - Ninja Rubber Ducky
+        - Zombie
+        
+        
+As a user I want to be acknowledged by my rubber ducky
+    - set response on random time interval
+    - respond with random response from personality chosen
+    -
+As a user I want to be able to pick whether or not Sound is on.
+    - Default no sound
+    
+As a user I want make my duck to respond when I click it with an assortment of random responses:
+    -quack
+    -belch
+    -"Hey!"
+    -Fart
+    -Famous movie quote
+    -
+    
+As a user I want to be able to terminate my duck session
+
+
+
+
+
+
+
