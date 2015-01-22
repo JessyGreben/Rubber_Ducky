@@ -14,16 +14,28 @@
 
 <body>
 
-  <h1>Rubber Ducky Debugging <button onclick="">Get Started</button> </h1>
+  <h1>Rubber Ducky Debugging <button onclick="toggleSlideBar()">Get Started</button> </h1>
+  <aside id="slide-bar">
+    <ul>
+      <li>Personalities</li>
+    </ul>
+  </aside>
+  <div class="container">
+    <img class="duck_img" src="imgs/blue_duck.png" alt="classic rubber ducky">
+    <!-- This div is a blue box that represents the ocean -->
+    <div class="ocean">
+    </div>
 
-  <img class="duck_img" src="imgs/blue_duck.png" alt="classic rubber ducky">  
-  <!-- This div is a blue box that represents the ocean -->
-  <div class="ocean">
+    <!--This div is a tan box that represents the beach -->
+    <div class="beach">
+    </div>
   </div>
-
-  <!--This div is a tan box that represents the beach -->
-  <div class="beach">
-  </div>
-
 </body>
+<script type="text/javascript">
+  var toggleSlideBar = function() {
+    console.log("hello");
+  var slideBar = document.getElementById("slide-bar");
+  slideBar.style.display == "block" ? slideBar.style.display = "none" : slideBar.style.display = "block";
+}
+</script>
 </html>
