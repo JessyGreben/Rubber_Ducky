@@ -1,4 +1,4 @@
-$("#slide-bar").hide();
+$(".slide-bar").hide();
 
 // var toggleSlideBar = function() {
   // var slideBar = document.getElementById("slide-bar");
@@ -10,5 +10,8 @@ $("#slide-bar").hide();
 //   $("slide-bar").show("slide", { direction: "right" }, 1000);
 // });
 $("#button").click(function() {
-  $("#slide-bar").toggle( 'blind', 500 );
+  $(".slide-bar").toggle( 'explode', 500 );
 });
+
+
+// 'blind'

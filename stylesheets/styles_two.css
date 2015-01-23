@@ -21,11 +21,13 @@ h1 {
 ******************** SIDE-BAR ************************
 ******************************************************/
 
-#slide-bar {
+.slide-bar {
   display: block;
   background: white;
   width: 300px;
-  padding-bottom: 500px;
+  float: left;
+  padding: 10px;
+  margin-left: 20px;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
 }
 label {

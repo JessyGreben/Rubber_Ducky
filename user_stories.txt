@@ -6,11 +6,15 @@ As a user I would like to personalize my rubber ducky.
     - with Hats
     - Facial hair
     - clothing
+        - Shirt
+        - Pants
+        - Dress
+        -
     - accessory
         - Wand
         - Umbrella
-        - 
-    - companion 
+        -
+    - companion
         - Parrot
         - Ferbie
         - Baby rubber ducky
@@ -21,7 +25,7 @@ As a user I would like to personalize my rubber ducky.
         - Unicorn
         - Rain cloud
         - HippoGriff
-        - 
+        -
     - Jewelery
     - Background (sometimes in a bath tub)
         - Pond
@@ -34,14 +38,14 @@ As a user I would like to personalize my rubber ducky.
         - In a bathroom
         - In portapotty
         - Dance club
-        - 
+        -
     - Personality (Each personality is a person in the Fiddler Crabs)
-        - Drunk 
+        - Drunk
         - Funny
         - Sassy
         - Tells it like it is
         - Empathetic
-        - Mean 
+        - Mean
         - Pirate
         - Depressed (EYOR)
         - Wizard
@@ -51,15 +55,15 @@ As a user I would like to personalize my rubber ducky.
         - Star wars rubber ducky
         - Ninja Rubber Ducky
         - Zombie
-        
-        
+
+
 As a user I want to be acknowledged by my rubber ducky
     - set response on random time interval
     - respond with random response from personality chosen
     -
 As a user I want to be able to pick whether or not Sound is on.
     - Default no sound
-    
+
 As a user I want make my duck to respond when I click it with an assortment of random responses:
     -quack
     -belch
@@ -67,7 +71,7 @@ As a user I want make my duck to respond when I click it with an assortment of r
     -Fart
     -Famous movie quote
     -
-    
+
 As a user I want to be able to terminate my duck session
 
 
