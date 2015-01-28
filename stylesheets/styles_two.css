@@ -23,10 +23,12 @@ h1 {
 
 .slide-bar {
   display: block;
+  position: relative;
   background: white;
   width: 300px;
   float: left;
   padding: 10px;
+  z-index: 100;
   margin-left: 20px;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
 }
@@ -69,6 +71,7 @@ input {
 .duck_img {
 	margin-top: 65px;
 	margin-left: 40%;
+  bottom: -15px;
 	z-index: -1;
 	position: relative;
 	-webkit-animation: duckmove 5s infinite;
@@ -76,21 +79,39 @@ input {
 }
 
 @-webkit-keyframes duckmove {
-    from {-ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(7deg);}
-    to {-ms-transform: rotate(-7deg);
-    -webkit-transform: rotate(-7deg);
-    transform: rotate(-7deg);}
+    from {-ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);}
+    to {-ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);}
+    0%   {-ms-transform: rotate(4deg);
+          -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);}
+    50%  {-ms-transform: rotate(-4deg);
+          -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);}
+    100% {-ms-transform: rotate(4deg);
+          -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);}
 }
 
 /* Standard syntax */
 @keyframes duckmove {
-    from {-ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(7deg);}
-    to {-ms-transform: rotate(-7deg);
-    -webkit-transform: rotate(-7deg);
-    transform: rotate(-7deg);}
+    from {-ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);}
+    to {-ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);}
+    0%   {-ms-transform: rotate(4deg);
+          -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);}
+    50%  {-ms-transform: rotate(-4deg);
+          -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);}
+    100% {-ms-transform: rotate(4deg);
+          -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);}
 }
 
