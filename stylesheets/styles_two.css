@@ -6,6 +6,7 @@ body {
 	background-color: #3399FF; /*blue color to represent sky */
 	padding: 0px;
 	margin: 0;
+  font-family: 'Fredoka One', cursive;
 }
 
 /*****************************************************
@@ -13,8 +14,8 @@ body {
 ******************************************************/
 
 h1 {
-	font-family: 'Fredoka One', cursive;
 	margin-top: 20px;
+  margin-left: 20px;
 }
 
 /*****************************************************
@@ -115,3 +116,7 @@ input {
           transform: rotate(4deg);}
 }
 
+/*'Next' button on the Personality Slide bar*/
+#next {
+  margin: 20px;
+}

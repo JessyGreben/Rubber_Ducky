@@ -19,9 +19,11 @@
 <!-- onclick="toggleSlideBar()" -->
   <h1>Rubber Ducky Debugging <button id="button">Get Started</button> </h1>
 
-  <div class="slide-bar">
+  <div class="slide-bar-personality slide-bar">
     <h2>Personality</h2>
     <hr>
+    <input type="radio" name="personality" id="latino" value="Latino" onclick="changeImage()" checked><label for"Drunk">Latino</label>
+    <br>
     <input type="radio" name="personality" id="drunk" value="Drunk" checked><label for"Drunk">Drunk</label>
     <br>
     <input type="radio" name="personality" id="funny" value="Funny"><label>Funny</label>
@@ -35,14 +37,16 @@
     <input type="radio" name="personality" id="fortune" value="Fortune"><label>Fortune Teller</label>
     <input type="radio" name="personality" id="possessed" value="possessed"><label>8 ball/possessed</label>
     <input type="radio" name="personality" id="ninja" value="Ninja"><label>Ninja</label>
-    <input type="radio" name="personality" id="zombie" value="Zombie"><label>Zombie</label>
+    <input type="radio" name="personality" id="zombie" value="Zombie"><label>Zombie<br>
+    <button id="next">Next</button></label>
+
   </div>
 
-  <div class="slide-bar">
+  <div class="slide-bar-clothes slide-bar">
     <h2>Clothing</h2>
     <hr>
+    <input type="checkbox" name="Poncho" value="Poncho"><label>Poncho</label>
     <input type="checkbox" name="Shirt" value="Shirt"><label for="Shirt">Shirt</label>
-    <input type="checkbox" name="" value=""><label>Tie</label>
     <input type="checkbox" name="" value=""><label>Pants</label>
     <input type="checkbox" name="" value=""><label>Dress</label>
     <input type="checkbox" name="" value=""><label></label>
@@ -51,13 +55,14 @@
     <input type="checkbox" name="" value=""><label></label>
     <input type="checkbox" name="" value=""><label></label>
     <input type="checkbox" name="" value=""><label></label>
-    <input type="checkbox" name="" value=""><label></label>
+    <input type="checkbox" name="" value=""><label><br>
+    <button id="next_two">Next</button></label>
   </div>
 
-  <div class="slide-bar">
+  <div class="slide-bar-accessories slide-bar">
     <h2>Accessories</h2>
     <hr>
-    <input type="checkbox" name="" value=""><label></label>
+    <input type="checkbox" name="" value=""><label>Maracas</label>
     <input type="checkbox" name="" value=""><label></label>
     <input type="checkbox" name="" value=""><label></label>
     <input type="checkbox" name="" value=""><label></label>
@@ -70,8 +75,9 @@
 
   </div>
 
-  <div class="container">
-    <img class="duck_img" src="imgs/duck.png" alt="classic rubber ducky">
+  <div class="container">       
+    <img class="duck_img" id="classic_duck" src="imgs/duck.png" alt="classic rubber ducky">
+
     <!-- This div is a blue box that represents the ocean -->
     <div class="ocean">
     </div>
