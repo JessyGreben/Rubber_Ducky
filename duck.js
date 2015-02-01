@@ -3,25 +3,72 @@ $( document ).ready(function() {
 	$(".slide-bar-personality").hide();
 	$(".slide-bar-clothes").hide();
 	$(".slide-bar-accessories").hide();
+	//$(".maracas_img").hide();
 
 	$("#button").click(function() {
   	$(".slide-bar-personality").toggle();
 	});
 
-//when you click 'Latino' button on Personality list, the classic duck img src changes to latino_duck img
-	//why does css change, when only changing the src
+	//Personalities
   $("#latino").click(function () {
     $('#classic_duck').attr('src', 'imgs/latino_duck.png');
   });
 
-//click next button change slide-bar to clothing slide-bar
-	$('#next').click(function () {
-		$(".slide-bar-clothes").toggle();	
-	});
+  //Accessories 
 
-	$('#next_two').click(function () {
-		$(".slide-bar-accessories").toggle();	
-	});
+  $('#maracas_button').click(function () {
+  	console.log("test");
+  	$('.maracas_img').show();
+  });
+
+//trying to change the personality div with the clothing div when you click the 'next' button
+// $("#next_two").click(function() {
+// 	var accessories = document.getElementById("accessories").innerHTML;
+// 	console.log("test");
+// 	document.getElementById("personality").innerHTML = accessories; 
+// });
+
+$("#next").click(function() {
+	var accessories = document.getElementById("accessories").innerHTML;
+//	var clothing = document.getElementById("clothing").innerHTML;
+	document.getElementById("personality").innerHTML = accessories; 
+});
+
+$("#next_three").click(function() {
+	var clothing = $("#clothing").html();
+	$(this).closest("div").html(clothing);
+
+// 	var clothing = document.getElementById("clothing").innerHTML;
+// 	document.getElementById("personality").innerHTML = clothing; 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+$(function() {
+    $( "#maracas" ).draggable();
+  });
+
+  // $("#next").click(function () {
+  //   $('slide-bar-personality').attr('div', 'slide-bar-clothes');
+  // });
+
+// click next button change slide-bar to clothing slide-bar
+// 	$('#next').click(function () {
+// 		$(".slide-bar-clothes").toggle();	
+// 	});
+
+// 	$('#next_two').click(function () {
+// 		$(".slide-bar-accessories").toggle();	
+// 	});
             
       
 //'blind'
